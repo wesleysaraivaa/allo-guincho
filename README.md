@@ -221,7 +221,7 @@ npm run build
 
 - Atualizar informações de contato em `src/config/contact.ts`
 - Adicionar novos posts no blog
-- Atualizar preços e serviços
+- Atualizar serviços
 - Monitorar performance e SEO
 
 ### Backup

@@ -139,20 +139,6 @@ const Footer = () => {
             <p className="text-gray-300 text-sm">
               © 2024 Allô Guincho. Todos os direitos reservados.
             </p>
-            <div className="flex space-x-6 text-sm text-gray-300">
-              <Link
-                to="/politica-privacidade"
-                className="hover:text-white transition-colors"
-              >
-                Política de Privacidade
-              </Link>
-              <Link
-                to="/termos-uso"
-                className="hover:text-white transition-colors"
-              >
-                Termos de Uso
-              </Link>
-            </div>
           </div>
         </div>
       </div>
