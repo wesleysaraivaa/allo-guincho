@@ -1,0 +1,25 @@
+
+# Robots.txt para Allô Guincho - Serviço de Reboque 24h
+User-agent: *
+Allow: /
+Allow: /sobre
+Allow: /servicos  
+Allow: /contato
+Allow: /blog
+Allow: /faq
+
+# Sitemap
+Sitemap: https://alloguincho.com.br/sitemap.xml
+
+# Crawl-delay para evitar sobrecarga
+Crawl-delay: 1
+
+# Priorizar páginas importantes para SEO local
+User-agent: Googlebot
+Allow: /
+Allow: /servicos
+Allow: /contato
+
+# Desallow admin areas se houver
+Disallow: /admin/
+Disallow: /private/
