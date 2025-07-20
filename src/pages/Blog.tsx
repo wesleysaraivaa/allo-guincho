@@ -14,7 +14,7 @@ const Blog = () => {
       title: "O que fazer quando o carro quebra na estrada?",
       excerpt:
         "Guia completo com dicas essenciais para manter a segurança quando seu veículo apresenta problemas na estrada.",
-      date: "2024-01-15",
+      date: "2025-01-15",
       author: "Equipe Allô Guincho",
       readTime: "5 min",
       category: "Dicas de Segurança",
@@ -25,7 +25,7 @@ const Blog = () => {
       title: "Como escolher um serviço de reboque confiável",
       excerpt:
         "Descubra os critérios importantes para selecionar uma empresa de reboque segura e eficiente.",
-      date: "2024-01-10",
+      date: "2025-01-10",
       author: "Equipe Allô Guincho",
       readTime: "4 min",
       category: "Guia do Cliente",
@@ -36,7 +36,7 @@ const Blog = () => {
       title: "Manutenção preventiva: evite quebras inesperadas",
       excerpt:
         "Dicas de manutenção que podem evitar problemas e a necessidade de reboque de emergência.",
-      date: "2024-01-08",
+      date: "2025-01-08",
       author: "Equipe Allô Guincho",
       readTime: "6 min",
       category: "Manutenção",
@@ -47,7 +47,7 @@ const Blog = () => {
       title: "Reboque vs. Conserto no Local: quando chamar cada um?",
       excerpt:
         "Entenda quando é melhor rebocar o veículo ou tentar um conserto emergencial no local.",
-      date: "2024-01-05",
+      date: "2025-01-05",
       author: "Equipe Allô Guincho",
       readTime: "4 min",
       category: "Dicas Técnicas",
@@ -58,7 +58,7 @@ const Blog = () => {
       title: "Documentos necessários para reboque",
       excerpt:
         "Lista completa dos documentos que você precisa ter em mãos durante um serviço de reboque.",
-      date: "2024-01-03",
+      date: "2025-01-03",
       author: "Equipe Allô Guincho",
       readTime: "3 min",
       category: "Documentação",
@@ -69,7 +69,7 @@ const Blog = () => {
       title: "Cuidados especiais no reboque de veículos automáticos",
       excerpt:
         "Precauções importantes que devem ser tomadas ao rebocar carros com transmissão automática.",
-      date: "2024-01-01",
+      date: "2025-01-01",
       author: "Equipe Allô Guincho",
       readTime: "5 min",
       category: "Dicas Técnicas",

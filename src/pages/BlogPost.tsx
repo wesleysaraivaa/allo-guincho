@@ -45,7 +45,7 @@ const BlogPost = () => {
                 <Clock className="w-4 h-4" />
                 <span>5 min de leitura</span>
               </div>
-              <span>15 de Janeiro, 2024</span>
+              <span>15 de Janeiro, 2025</span>
             </div>
           </header>
 
