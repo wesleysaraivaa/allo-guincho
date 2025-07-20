@@ -86,7 +86,6 @@ const Blog = () => {
     "Documentação",
   ];
 
-  // Filter posts based on selected category
   const filteredPosts =
     selectedCategory === "Todos"
       ? blogPosts
