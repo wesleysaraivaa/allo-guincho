@@ -69,7 +69,7 @@ const Blog = () => {
       title: "Cuidados especiais no reboque de veículos automáticos",
       excerpt:
         "Precauções importantes que devem ser tomadas ao rebocar carros com transmissão automática.",
-      date: "2025-01-01",
+      date: "2025-01-02",
       author: "Equipe Allô Guincho",
       readTime: "5 min",
       category: "Dicas Técnicas",
