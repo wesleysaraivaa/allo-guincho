@@ -1,6 +1,6 @@
 # Allô Guincho - Website Oficial
 
-![Allô Guincho](./src/assets/logo-allo-guincho.png)
+![Allô Guincho](./src/assets/logo-allo-guincho-branca.png)
 
 Website oficial da **Allô Guincho**, empresa especializada em serviços de reboque 24h na Grande São Paulo, interior e litoral paulista.
 
