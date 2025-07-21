@@ -84,8 +84,8 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-primary" />
                 <div>
-                  <p className="text-sm text-white">Grande São Paulo e interior e </p>
-                  <p className="text-xs text-gray-300">litoral paulista</p>
+                  <p className="text-sm text-white">Grande São Paulo </p>
+                  <p className="text-xs text-gray-300"> interior e litoral paulista</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
