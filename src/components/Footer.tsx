@@ -24,8 +24,7 @@ const Footer = () => {
             </div>
             <p className="text-gray-300 text-sm">
               Serviço de reboque confiável e rápido, disponível 24 horas por
-              dia. Atendemos veículos leves e médios em Fortaleza e região
-              metropolitana.
+              dia. Atendemos veículos leves e médios em toda a Grande São Paulo, interior e litoral paulista.
             </p>
           </div>
 
@@ -85,8 +84,8 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-primary" />
                 <div>
-                  <p className="text-sm text-white">Fortaleza e Região</p>
-                  <p className="text-xs text-gray-300">Metropolitana</p>
+                  <p className="text-sm text-white">Grande São Paulo e interior e </p>
+                  <p className="text-xs text-gray-300">litoral paulista</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">

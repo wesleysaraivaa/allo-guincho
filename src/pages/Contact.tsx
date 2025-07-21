@@ -121,10 +121,10 @@ Mensagem: ${formData.message}`;
                         Área de Atendimento
                       </h3>
                       <p className="text-muted-foreground">
-                        Fortaleza e região metropolitana
+                        Grande São Paulo, interior e litoral paulista
                       </p>
                       <p className="text-sm text-muted-foreground mt-1">
-                        Cobertura completa em toda a Grande Fortaleza
+                        Cobertura completa em toda a Grande São Paulo.
                       </p>
                     </div>
                   </div>
