@@ -3,7 +3,6 @@ import { DispatchWidget } from "@/components/DispatchWidget";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
 import { FleetGallery } from "@/components/sections/FleetGallery";
-import { WhyUsSection } from "@/components/sections/WhyUsSection";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { FaqSection } from "@/components/sections/FaqSection";
@@ -22,7 +21,6 @@ export const Home = () => {
 
       <ServicesSection />
       <FleetGallery />
-      <WhyUsSection />
       <AboutSection />
       <TestimonialsSection />
       <FaqSection />

@@ -106,7 +106,7 @@ const Header = () => {
                       className="flex items-center justify-center space-x-2"
                     >
                       <Phone className="w-5 h-5" />
-                      <span>Ligar ({CONTACT_CONFIG.phone.display})</span>
+                      <span>Ligar {CONTACT_CONFIG.phone.display}</span>
                     </a>
                   </Button>
                 </div>

@@ -47,10 +47,6 @@ export const HeroSection = () => {
 
   return (
     <section className="relative bg-slate-950 text-white overflow-hidden border-b-2 border-orange-500/30">
-      <div className="bg-gradient-to-r from-orange-600 via-amber-600 to-orange-600 text-white py-2 px-4 text-center text-xs sm:text-sm font-extrabold tracking-wide uppercase shadow-md flex items-center justify-center space-x-2">
-        <span className="w-2.5 h-2.5 rounded-full bg-white animate-ping"></span>
-        <span>PLANTÃO DE EMERGÊNCIA 24H • GUINCHOS DISPONÍVEIS NA GRANDE SP E RODOVIAS</span>
-      </div>
 
       <div className="container mx-auto px-4 py-10 lg:py-16 max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
