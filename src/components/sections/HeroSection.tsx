@@ -68,7 +68,7 @@ export const HeroSection = () => {
             </p>
 
             <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-4 text-left shadow-xl max-w-xl mx-auto lg:mx-0">
-              <span className="text-xs font-extrabold uppercase tracking-wider text-amber-400 block mb-2.5 flex items-center gap-1.5">
+              <span className="text-xs font-extrabold uppercase tracking-wider text-amber-400 mb-2.5 flex items-center gap-1.5">
                 <Zap className="w-4 h-4 text-amber-400" />
                 Selecione seu veículo para despacho rápido:
               </span>
