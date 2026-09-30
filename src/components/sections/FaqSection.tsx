@@ -11,45 +11,36 @@ export const FaqSection = () => {
   const faqs = [
     {
       question: "Quanto tempo leva para o guincho chegar?",
-      answer:
-        "Nosso tempo médio de chegada em São Paulo, rodovias e região metropolitana é de 15 a 25 minutos. Despachamos imediatamente o guincho plataforma mais próximo de sua localização.",
+      answer: "15 a 25 minutos em São Paulo e rodovias.",
     },
     {
       question: "Qual o valor do reboque?",
       answer:
-        `O valor é calculado de forma transparente com base na distância e tipo de veículo. Aceitamos PIX, cartão de débito e parcelamos no cartão em até 12x. Fale conosco no WhatsApp ou ligue (${CONTACT_CONFIG.phone.display}) para orçamento imediato!`,
+        "Calculado pela distância. Aceitamos PIX e parcelamos em até 12x.",
     },
     {
-      question: "Atendem veículos automáticos e rebaixados?",
-      answer:
-        "Sim! Nossa frota conta exclusivamente com guinchos plataforma hidráulica de acionamento suave, inclináveis no nível do solo, permitindo embarque sem raspões no para-choque nem danos à transmissão automática.",
+      question: "Atendem carros automáticos e rebaixados?",
+      answer: "Sim! Plataforma suave sem raspões no para-choque.",
     },
     {
-      question: "Quais tipos de veículos vocês rebocam?",
-      answer:
-        "Rebocamos carros de passeio, SUVs, pick-ups, vans de carga e escolares, caminhões leves (VUC), jipes 4x4, carros antigos e compressores/maquinários industriais.",
+      question: "Quais veículos vocês rebocam?",
+      answer: "Carros, SUVs, vans, caminhões leves, máquinas, 4x4 e clássicos.",
     },
     {
-      question: "Atendem de madrugada, finais de semana e feriados?",
-      answer:
-        "Sim! Nosso plantão de atendimento e resgate opera 24 horas por dia, 7 dias por semana, inclusive durante a madrugada e feriados.",
-    },
-    {
-      question: "Posso ir junto na cabine do guincho?",
-      answer:
-        "Com certeza! Nossas plataformas contam com cabines confortáveis e espaço seguro para passageiros acompanharem o transporte.",
+      question: "Atendem 24h?",
+      answer: "Sim! 24 horas por dia, inclusive feriados e madrugada.",
     },
   ];
 
   return (
-    <section id="faq" className="py-16 bg-white border-t border-slate-200 scroll-mt-20">
+    <section id="faq" className="py-24 bg-white scroll-mt-20">
       <div className="container mx-auto px-4 max-w-4xl">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-extrabold text-slate-900 mb-3">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 mb-4">
             Perguntas Frequentes
           </h2>
-          <p className="text-slate-600 text-sm">
-            Tire suas dúvidas rápidas sobre o serviço de reboque:
+          <p className="text-lg sm:text-xl text-slate-600">
+            Tire suas dúvidas sobre nosso serviço
           </p>
         </div>
 
@@ -58,12 +49,12 @@ export const FaqSection = () => {
             <AccordionItem
               key={index}
               value={`item-${index}`}
-              className="border border-slate-200 bg-slate-50/50 rounded-xl px-6 shadow-sm"
+              className="border-2 border-slate-200 bg-slate-50 rounded-2xl px-6 shadow-sm hover:border-orange-300 transition-all"
             >
-              <AccordionTrigger className="text-left font-bold text-slate-900 hover:no-underline py-5 text-sm sm:text-base">
+              <AccordionTrigger className="text-left font-black text-slate-900 hover:no-underline py-6 text-lg sm:text-xl">
                 <span>{faq.question}</span>
               </AccordionTrigger>
-              <AccordionContent className="text-slate-600 text-sm leading-relaxed pb-5">
+              <AccordionContent className="text-slate-600 text-base leading-relaxed pb-6">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>

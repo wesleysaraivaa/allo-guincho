@@ -1,169 +1,141 @@
-import { Truck, Bus, Wrench, HardHat, Compass, Sparkles, Check } from "lucide-react";
+import {
+  Truck,
+  Bus,
+  Wrench,
+  HardHat,
+  Compass,
+  Sparkles,
+  ArrowRight,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CONTACT_CONFIG } from "@/config/contact";
 
-const imgAudi = "/WhatsApp Image 2026-09-18 at 20.59.14.jpeg";
-const imgVanEscolar = "/WhatsApp Image 2026-09-18 at 20.57.27 (1).jpeg";
-const imgHyundaiHR = "/WhatsApp Image 2026-09-18 at 20.57.27 (3).jpeg";
-const imgMaquinas = "/WhatsApp Image 2026-09-18 at 20.57.26.jpeg";
-const imgJeep4x4 = "/WhatsApp Image 2026-09-18 at 20.57.27.jpeg";
-const imgCarroAntigo = "/WhatsApp Image 2026-09-18 at 20.59.14 (1).jpeg";
+const imgAudi = "/resgate-audi-a3.jpg";
+const imgVanEscolar = "/resgate-van-escolar.jpg";
+const imgHyundaiHR = "/resgate-hyundai-hr.jpg";
+const imgMaquinas = "/resgate-maquinas.jpg";
+const imgJeep4x4 = "/resgate-jeep-wrangler.jpg";
+const imgCarroAntigo = "/resgate-carro-antigo.jpg";
 
 export const ServicesSection = () => {
   const mainServices = [
     {
-      title: "Reboque de Carros & SUVs",
-      subtitle: "Sedans, Hatchbacks, SUVs, Carros Rebaixados e Automáticos",
-      description:
-        "Transporte seguro via plataforma hidráulica de acionamento suave. Ideal para carros automáticos e blindados.",
-      features: [
-        "Plataforma inclinável sem atrito no para-choque",
-        "Amarração reforçada com cintas soft nas rodas",
-        "Seguro total durante todo o trajeto",
-        "Atendimento urbano e em rodovias",
-      ],
+      title: "Carros & SUVs",
+      subtitle: "Sedans, Hatchbacks, SUVs, Rebaixados",
+      description: "Plataforma suave para carros automáticos e rebaixados",
       icon: Truck,
       image: imgAudi,
+      badge: "Passeio",
     },
     {
-      title: "Reboque de Vans & Micro-ônibus",
-      subtitle: "Vans Escolares, Vans de Carga e Transporte de Passageiros",
-      description:
-        "Guincho pesado adaptado para o transporte de vans e micro-ônibus com total estabilidade na pista.",
-      features: [
-        "Capacidade reforçada para furgões pesados",
-        "Ancoragem quádrupla para estabilidade em curvas",
-        "Transporte para garagens, concessionárias e oficinas",
-        "Disponibilidade 24 horas por dia",
-      ],
+      title: "Vans & Micro-ônibus",
+      subtitle: "Vans Escolares e de Carga",
+      description: "Ancoragem reforçada para transporte seguro",
       icon: Bus,
       image: imgVanEscolar,
+      badge: "Utilitários",
     },
     {
-      title: "Reboque de VUCs & Caminhões Leves",
-      subtitle: "Hyundai HR, Sprinters, Caminhões Baú e Veículos Comerciais",
-      description:
-        "Reboque especializado para frota comercial e utilitários leves (VUC) operando no centro e região metropolitana.",
-      features: [
-        "Transporte rápido para não parar a sua operação",
-        "Atendimento a veículos carregados ou vazios",
-        "Guinchos preparados para vias de restrição urbana",
-        "Emissão de recibo e nota para empresas",
-      ],
+      title: "Caminhões Leves",
+      subtitle: "VUCs, Sprinters, Baús",
+      description: "Reboque especializado para frota comercial",
       icon: Wrench,
       image: imgHyundaiHR,
+      badge: "Comercial",
     },
     {
-      title: "Reboque de Máquinas & Equipamentos",
-      subtitle: "Compressores, Geradores, Maquinário Industrial e Agrícola",
-      description:
-        "Plataforma reforçada com capacidade para carregar compressores industriais, geradores e geradores móveis.",
-      features: [
-        "Cintas de amarração de alta tonelagem",
-        "Carregamento e descarregamento suave",
-        "Remoção e transporte canteiro a canteiro",
-        "Equipe técnica treinada para manuseio seguro",
-      ],
+      title: "Máquinas Industriais",
+      subtitle: "Compressores, Geradores",
+      description: "Cintas de alta tonelagem para cargas pesadas",
       icon: HardHat,
       image: imgMaquinas,
+      badge: "Industrial",
     },
     {
-      title: "Reboque 4x4 & Veículos Off-Road",
-      subtitle: "Jeeps de Trilha, Pick-ups 4x4 e Resgate Noturno",
-      description:
-        "Resgate especializado para veículos 4x4 e jipes atolados ou com avaria mecânica após trilhas e viagens.",
-      features: [
-        "Guincho de cabo de aço e acionamento hidráulico",
-        "Atendimento 24h em estradas vicinais e rodovias",
-        "Cuidado com eixos, diferenciais e suspensão",
-        "Resgate noturno com sinalização de emergência",
-      ],
+      title: "4x4 & Off-Road",
+      subtitle: "Jeeps, Pick-ups 4x4",
+      description: "Resgate especializado em trilhas e rodovias",
       icon: Compass,
       image: imgJeep4x4,
+      badge: "Off-Road",
     },
     {
-      title: "Reboque de Carros Antigos & Especiais",
-      subtitle: "Veículos Clássicos, de Coleção e Pick-ups Vintage",
-      description:
-        "Cuidado extremo para o transporte do seu veículo clássico ou de coleção até eventos, oficinas ou garagens.",
-      features: [
-        "Plataforma zero impacto para preservar a estrutura",
-        "Fixação exclusiva pelas rodas sem tocar a pintura",
-        "Motoristas com experiência em carros clássicos",
-        "Transporte intermunicipal agendado",
-      ],
+      title: "Carros Antigos",
+      subtitle: "Clássicos e de Coleção",
+      description: "Cuidado zero impacto para preservar a pintura",
       icon: Sparkles,
       image: imgCarroAntigo,
+      badge: "Clássicos",
     },
   ];
 
   return (
-    <section id="servicos" className="py-16 bg-slate-50 scroll-mt-20">
+    <section
+      id="servicos"
+      className="py-20 bg-slate-50 scroll-mt-20 border-b border-slate-200"
+    >
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-14">
-          <span className="bg-orange-100 text-orange-700 font-bold text-xs uppercase tracking-wider px-3.5 py-1.5 rounded-full mb-3 inline-block">
-            Serviços Especializados de Reboque
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            O Que Precisa Ser Rebocado Hoje?
+        {/* Header */}
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight mb-4">
+            O Que Precisa Ser Rebocado?
           </h2>
-          <p className="text-slate-600 text-sm mt-3 leading-relaxed">
-            Guinchos plataforma de última geração preparados para transportar com total segurança cada tipo de veículo ou maquinário:
+          <p className="text-lg sm:text-xl text-slate-600 leading-relaxed">
+            Plataforma hidráulica 24h para qualquer veículo
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Grid of Service Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {mainServices.map((service, index) => {
             const Icon = service.icon;
             return (
               <div
                 key={index}
-                className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all flex flex-col justify-between group"
+                className="bg-white border-2 border-slate-200 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:border-orange-500 transition-all duration-300 flex flex-col group hover:-translate-y-1"
               >
-                <div>
-                  <div className="h-52 overflow-hidden relative">
-                    <img
-                      src={service.image}
-                      alt={service.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute top-3 left-3 bg-slate-900/80 backdrop-blur-md text-white px-3 py-1 rounded-lg text-xs font-bold flex items-center space-x-1.5">
-                      <Icon className="w-3.5 h-3.5 text-orange-400 flex-shrink-0" />
-                      <span>{service.title}</span>
-                    </div>
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-slate-900 mb-1">
-                      {service.title}
-                    </h3>
-                    <p className="text-xs text-orange-600 font-semibold mb-3">
-                      {service.subtitle}
-                    </p>
-                    <p className="text-slate-600 text-sm mb-4 leading-relaxed">
-                      {service.description}
-                    </p>
-                    <ul className="space-y-2 border-t border-slate-100 pt-4">
-                      {service.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center space-x-2 text-xs text-slate-600">
-                          <Check className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-                          <span>{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
+                {/* Image */}
+                <div className="h-56 overflow-hidden relative bg-slate-900">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
+
+                  {/* Badge */}
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-xl shadow-lg flex items-center space-x-2">
+                      <Icon className="w-4 h-4 text-white" />
+                      <span>{service.badge}</span>
+                    </span>
                   </div>
                 </div>
 
-                <div className="p-6 bg-slate-50 border-t border-slate-100">
+                {/* Content */}
+                <div className="p-6 flex-1 flex flex-col">
+                  <h3 className="text-2xl font-black text-slate-900 mb-2">
+                    {service.title}
+                  </h3>
+                  <p className="text-sm text-orange-600 font-semibold mb-3">
+                    {service.subtitle}
+                  </p>
+                  <p className="text-base text-slate-600 leading-relaxed mb-6 flex-1">
+                    {service.description}
+                  </p>
+
+                  {/* Button */}
                   <Button
                     asChild
-                    className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm py-3"
+                    className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-black text-base py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center space-x-2 group/btn active:scale-95"
                   >
                     <a
-                      href={`https://wa.me/${CONTACT_CONFIG.phone.whatsapp}?text=Olá! Preciso do serviço: ${encodeURIComponent(service.title)}`}
+                      href={`https://wa.me/${CONTACT_CONFIG.phone.whatsapp}?text=Olá! Preciso do serviço de: ${encodeURIComponent(service.title)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Chamar Reboque via WhatsApp
+                      <span>Solicitar Agora</span>
+                      <ArrowRight className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" />
                     </a>
                   </Button>
                 </div>

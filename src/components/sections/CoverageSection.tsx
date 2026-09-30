@@ -16,68 +16,68 @@ export const CoverageSection = () => {
     "Zona Leste",
     "Zona Norte",
     "Zona Oeste",
-    "Alphaville / Barueri",
+    "Alphaville",
     "Guarulhos",
     "ABC Paulista",
   ];
 
   return (
-    <section id="contato" className="py-12 bg-slate-50 border-t border-slate-200">
-      <div className="container mx-auto px-4 text-center max-w-4xl mb-12">
-        <h3 className="text-lg font-bold text-slate-900 mb-4">
-          Regiões Atendidas em São Paulo e Rodovias
-        </h3>
-        <div className="flex flex-wrap justify-center gap-2">
+    <section id="contato" className="py-24 bg-slate-900 text-white">
+      <div className="container mx-auto px-4 max-w-6xl">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-4">
+            Atendemos Toda São Paulo
+          </h2>
+          <p className="text-lg sm:text-xl text-slate-300">
+            Marginais, rodovias e todas as zonas da cidade
+          </p>
+        </div>
+
+        <div className="flex flex-wrap justify-center gap-3 mb-16 max-w-4xl mx-auto">
           {coverageAreas.map((area, index) => (
             <span
               key={index}
-              className="bg-white text-slate-700 border border-slate-200 px-3.5 py-1.5 rounded-lg text-xs font-medium"
+              className="bg-slate-800 text-slate-200 border border-slate-700 px-5 py-3 rounded-xl text-base font-semibold hover:border-orange-500 transition-all"
             >
               {area}
             </span>
           ))}
         </div>
-      </div>
 
-      <div className="container mx-auto px-4">
-        <div className="bg-slate-900 text-white rounded-3xl p-8 lg:p-12 text-center max-w-4xl mx-auto shadow-2xl relative overflow-hidden">
-          <div className="absolute -right-20 -bottom-20 w-64 h-64 bg-orange-600/20 rounded-full blur-3xl pointer-events-none"></div>
-          <span className="inline-block bg-orange-600 text-white font-extrabold text-xs uppercase tracking-wider px-3.5 py-1 rounded-md mb-3">
-            Atendimento Emergencial 24h
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-black mb-3 text-white">
+        <div className="bg-gradient-to-r from-orange-600 to-amber-600 rounded-3xl p-8 lg:p-16 text-center max-w-4xl mx-auto shadow-2xl">
+          <h3 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-4 text-white">
             Precisa de Reboque Agora?
-          </h2>
-          <p className="text-slate-300 text-sm mb-8 max-w-xl mx-auto">
-            Nossa equipe está pronta para despachar a plataforma hidráulica mais próxima até você.
+          </h3>
+          <p className="text-lg sm:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Plataforma hidráulica em até 30 minutos
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               asChild
               size="lg"
-              className="bg-emerald-600 hover:bg-emerald-500 text-white font-black text-base px-8 py-6 rounded-xl shadow-lg shadow-emerald-900/40"
+              className="bg-white hover:bg-slate-100 text-orange-600 font-black text-lg px-12 py-6 rounded-2xl shadow-xl whitespace-nowrap"
             >
               <a
                 href={`https://wa.me/${CONTACT_CONFIG.phone.whatsapp}?text=Olá! Preciso de reboque urgente.`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center space-x-2"
+                className="flex items-center justify-center space-x-3"
               >
-                <MessageCircle className="w-5 h-5 fill-white" />
+                <MessageCircle className="w-6 h-6" />
                 <span>Chamar no WhatsApp</span>
               </a>
             </Button>
             <Button
               asChild
               size="lg"
-              className="bg-orange-600 hover:bg-orange-500 text-white font-bold text-base px-8 py-6 rounded-xl shadow-md"
+              className="bg-slate-900 hover:bg-slate-800 text-white font-black text-lg px-10 py-6 rounded-2xl shadow-lg whitespace-nowrap"
             >
               <a
                 href={`tel:${CONTACT_CONFIG.phone.link}`}
-                className="flex items-center justify-center space-x-2"
+                className="flex items-center justify-center space-x-3"
               >
-                <Phone className="w-5 h-5" />
-                <span>Ligar ({CONTACT_CONFIG.phone.display})</span>
+                <Phone className="w-6 h-6" />
+                <span>Ligar Agora</span>
               </a>
             </Button>
           </div>

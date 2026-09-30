@@ -13,7 +13,7 @@ export const Home = () => {
     <div className="min-h-screen bg-slate-50 text-slate-900">
       <HeroSection />
 
-      <section id="chamar-guincho" className="py-12 bg-slate-900 scroll-mt-20">
+      <section id="chamar-guincho" className="py-16 bg-slate-900 scroll-mt-20">
         <div className="container mx-auto px-4 max-w-4xl">
           <DispatchWidget />
         </div>

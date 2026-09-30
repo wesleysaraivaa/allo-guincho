@@ -30,48 +30,6 @@ npm run dev
 npm run build
 ```
 
-## 📁 Estrutura do Projeto
-
-```
-allo-guincho/
-├── public/
-│   ├── robots.txt
-│   ├── sitemap.xml
-│   └── logo-allo-guincho-branca.ico
-├── src/
-│   ├── assets/
-│   │   ├── logo-allo-guincho.png
-│   │   └── logo-allo-guincho-branca.png
-│   ├── components/
-│   │   ├── sections/
-│   │   │   ├── HeroSection.tsx
-│   │   │   ├── ServicesSection.tsx
-│   │   │   ├── FleetGallery.tsx
-│   │   │   ├── WhyUsSection.tsx
-│   │   │   ├── AboutSection.tsx
-│   │   │   ├── TestimonialsSection.tsx
-│   │   │   ├── FaqSection.tsx
-│   │   │   └── CoverageSection.tsx
-│   │   ├── ui/
-│   │   │   ├── accordion.tsx
-│   │   │   └── button.tsx
-│   │   ├── DispatchWidget.tsx
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx
-│   │   └── WhatsAppButton.tsx
-│   ├── config/
-│   │   └── contact.ts
-│   ├── lib/
-│   │   └── utils.ts
-│   ├── App.tsx
-│   ├── Home.tsx
-│   ├── main.tsx
-│   └── index.css
-├── index.html
-├── package.json
-└── README.md
-```
-
 ## 📞 Configuração de Contato
 
 As informações de contato estão centralizadas em `src/config/contact.ts`:
