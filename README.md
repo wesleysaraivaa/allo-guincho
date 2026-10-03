@@ -15,21 +15,6 @@ Landing page institucional desenvolvida em React + TypeScript com foco em conver
 - **Styling**: Tailwind CSS + Radix UI
 - **Icons**: Lucide React
 
-## 🚀 Como Executar
-
-### Instalação
-
-```bash
-# Instale as dependências
-npm install
-
-# Execute em modo desenvolvimento
-npm run dev
-
-# Build para produção
-npm run build
-```
-
 ## 📞 Configuração de Contato
 
 As informações de contato estão centralizadas em `src/config/contact.ts`:
