@@ -116,7 +116,7 @@ export const HeroSection = () => {
               <Button
                 asChild
                 size="lg"
-                className="w-full sm:w-auto bg-orange-600 hover:bg-orange-500 text-white font-black text-sm sm:text-base lg:text-lg px-6 sm:px-8 lg:px-10 py-6 sm:py-7 lg:py-8 rounded-2xl shadow-xl shadow-orange-950/50 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-orange-950/70 active:scale-95"
+                className="w-full sm:w-auto bg-orange-700 hover:bg-orange-600 text-white font-black text-sm sm:text-base lg:text-lg px-6 sm:px-8 lg:px-10 py-6 sm:py-7 lg:py-8 rounded-2xl shadow-xl shadow-orange-950/50 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-orange-950/70 active:scale-95"
               >
                 <a
                   href={`tel:${CONTACT_CONFIG.phone.link}`}
@@ -127,7 +127,7 @@ export const HeroSection = () => {
                     <span className="block font-extrabold text-sm sm:text-base">
                       Ligar 24h Agora
                     </span>
-                    <span className="text-[10px] sm:text-[11px] lg:text-[12px] text-amber-100 font-bold block">
+                    <span className="text-[10px] sm:text-[11px] lg:text-[12px] text-white font-bold block">
                       {CONTACT_CONFIG.phone.display}
                     </span>
                   </div>

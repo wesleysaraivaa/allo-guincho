@@ -89,7 +89,7 @@ export const DispatchWidget = () => {
 
         <a
           href={`tel:${CONTACT_CONFIG.phone.link}`}
-          className="flex-1 flex items-center justify-center space-x-3 bg-orange-600 hover:bg-orange-500 text-white font-black text-lg px-8 py-6 rounded-2xl shadow-xl shadow-orange-950/50 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-orange-950/70 active:scale-95"
+          className="flex-1 flex items-center justify-center space-x-3 bg-orange-700 hover:bg-orange-600 text-white font-black text-lg px-8 py-6 rounded-2xl shadow-xl shadow-orange-950/50 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-orange-950/70 active:scale-95"
         >
           <Phone className="w-6 h-6" />
           <span>Ligar Agora</span>

@@ -1,7 +1,7 @@
 import { Phone, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CONTACT_CONFIG } from "@/config/contact";
-import logoAlloGuincho from "@/assets/logo-allo-guincho-branca.png";
+import logoAlloGuincho from "@/assets/logo-allo-guincho-branca.svg";
 
 const Footer = () => {
   const getWhatsAppUrl = () => {

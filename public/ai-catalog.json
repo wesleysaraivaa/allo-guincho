@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agenticresourcediscovery.org/schema/ai-catalog.json",
+  "name": "Allô Guincho 24h",
+  "description": "Serviço de guincho e reboque 24 horas em São Paulo e região metropolitana. Atendimento em até 30 minutos para carros, SUVs, vans, utilitários, caminhões e máquinas.",
+  "url": "https://alloguincho.com.br",
+  "version": "1.0.0",
+  "provider": {
+    "name": "Allô Guincho 24h",
+    "url": "https://alloguincho.com.br",
+    "contact": {
+      "phone": "+5511958204216",
+      "email": "contato@alloguincho.com.br"
+    }
+  },
+  "documentation": {
+    "llms": "https://alloguincho.com.br/llms.txt"
+  },
+  "capabilities": [
+    {
+      "name": "Towing Service Request",
+      "description": "Atendimento emergencial de guincho 24 horas com plataforma hidráulica",
+      "type": "service",
+      "url": "https://alloguincho.com.br/#chamar-guincho"
+    }
+  ],
+  "services": [
+    {
+      "id": "guincho-24h",
+      "name": "Reboque de Veículos Leves e Pesados",
+      "description": "Plataforma hidráulica 24 horas em São Paulo",
+      "url": "https://alloguincho.com.br/#servicos"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 128" width="100%" height="100%">
+  <!-- Tow Truck Icon Group -->
+  <g transform="translate(10, 20)">
+    <!-- Shield / Badge background -->
+    <rect x="0" y="0" width="88" height="88" rx="24" fill="#0f172a" stroke="#f97316" stroke-width="3"/>
+    
+    <!-- Tow Truck Cab -->
+    <path d="M22 62 L22 46 L38 34 L54 34 L54 62 Z" fill="#f97316"/>
+    <!-- Cab Window -->
+    <path d="M38 38 L50 38 L50 48 L38 48 Z" fill="#0f172a"/>
+    <!-- Truck Flatbed / Bed -->
+    <rect x="54" y="44" width="22" height="18" fill="#e2e8f0" rx="2"/>
+    <!-- Tow Hook / Arm -->
+    <path d="M60 44 L68 28 L74 28 L74 34 L70 34 L64 44 Z" fill="#38bdf8"/>
+    <!-- Wheels -->
+    <circle cx="34" cy="62" r="8" fill="#020617" stroke="#94a3b8" stroke-width="3"/>
+    <circle cx="62" cy="62" r="8" fill="#020617" stroke="#94a3b8" stroke-width="3"/>
+    <!-- Emergency Light -->
+    <circle cx="44" cy="28" r="4" fill="#22c55e"/>
+  </g>
+
+  <!-- Typography Group -->
+  <!-- ALLÔ -->
+  <text x="112" y="58" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="34" letter-spacing="-0.5" fill="#f97316">ALLÔ</text>
+  <!-- GUINCHO -->
+  <text x="202" y="58" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="34" letter-spacing="-0.5" fill="#ffffff">GUINCHO</text>
+  
+  <!-- Subtitle Badge -->
+  <rect x="112" y="74" width="228" height="24" rx="12" fill="#022c22" stroke="#059669" stroke-width="1.5"/>
+  <text x="226" y="90" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="12" letter-spacing="1.5" fill="#34d399" text-anchor="middle">REBOQUE 24H • SÃO PAULO</text>
+</svg>

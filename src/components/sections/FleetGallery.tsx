@@ -155,7 +155,7 @@ export const FleetGallery = () => {
 
   const scrollSlider = (direction: "left" | "right") => {
     if (!sliderRef.current) return;
-    const scrollAmount = sliderRef.current.clientWidth * 0.8;
+    const scrollAmount = Math.min(window.innerWidth * 0.8, 400);
     sliderRef.current.scrollBy({
       left: direction === "left" ? -scrollAmount : scrollAmount,
       behavior: "smooth",
@@ -301,7 +301,7 @@ export const FleetGallery = () => {
           <Button
             asChild
             size="lg"
-            className="bg-white hover:bg-slate-100 text-orange-600 font-black text-lg px-12 py-6 rounded-2xl shadow-xl whitespace-nowrap"
+            className="bg-white hover:bg-slate-100 text-orange-800 font-black text-lg px-12 py-6 rounded-2xl shadow-xl whitespace-nowrap"
           >
             <a
               href={`https://wa.me/${CONTACT_CONFIG.phone.whatsapp}?text=Olá! Vi as fotos e preciso de um guincho agora.`}
@@ -377,7 +377,7 @@ export const FleetGallery = () => {
               <div className="flex items-center space-x-3">
                 <Button
                   asChild
-                  className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs py-2.5 px-5 rounded-xl shadow-md"
+                  className="bg-emerald-700 hover:bg-emerald-600 text-white font-bold text-xs py-2.5 px-5 rounded-xl shadow-md"
                 >
                   <a
                     href={`https://wa.me/${CONTACT_CONFIG.phone.whatsapp}?text=Olá! Gostaria de um guincho similar ao do atendimento: ${encodeURIComponent(filteredItems[selectedPhotoIndex].title)}`}

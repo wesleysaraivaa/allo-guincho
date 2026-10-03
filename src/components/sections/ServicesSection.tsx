@@ -131,7 +131,7 @@ export const ServicesSection = () => {
                   {/* Button */}
                   <Button
                     asChild
-                    className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-black text-base py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center space-x-2 group/btn active:scale-95"
+                    className="w-full bg-emerald-700 hover:bg-emerald-600 text-white font-black text-base py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center space-x-2 group/btn active:scale-95"
                   >
                     <a
                       href={`https://wa.me/${CONTACT_CONFIG.phone.whatsapp}?text=Olá! Preciso do serviço de: ${encodeURIComponent(service.title)}`}

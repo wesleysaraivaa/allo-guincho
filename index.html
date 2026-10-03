@@ -19,7 +19,7 @@
       type="image/jpeg"
     />
 
-    <!-- Google Tag Manager - Non-blocking Deferred Load -->
+    <!-- Google Tag Manager - Non-blocking Lazy Load on User Interaction -->
     <script>
       (function () {
         var loaded = false;
@@ -37,16 +37,16 @@
             f.parentNode.insertBefore(j, f);
           })(window, document, "script", "dataLayer", "GTM-WS3HHKWK");
         }
-        var events = ["touchstart", "scroll", "mousemove", "keydown"];
+        var events = ["touchstart", "scroll", "mousemove", "click", "pointerdown", "keydown"];
         var triggerLoad = function () {
           loadGTM();
           events.forEach(function (e) { window.removeEventListener(e, triggerLoad); });
         };
         events.forEach(function (e) { window.addEventListener(e, triggerLoad, { passive: true }); });
         if ("requestIdleCallback" in window) {
-          window.requestIdleCallback(function() { setTimeout(loadGTM, 2500); });
+          window.requestIdleCallback(function() { setTimeout(loadGTM, 6000); });
         } else {
-          window.addEventListener("load", function() { setTimeout(loadGTM, 2500); });
+          window.addEventListener("load", function() { setTimeout(loadGTM, 6000); });
         }
       })();
     </script>
@@ -216,6 +216,10 @@
     <meta name="msapplication-TileColor" content="#1a365d" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate icon" href="/logo-allo-guincho-branca.ico" />
+
+    <!-- AI & Agentic Discovery (ARD & LLM specifications) -->
+    <link rel="agent-catalog" type="application/json" href="/ai-catalog.json" />
+    <link rel="llms-txt" type="text/markdown" href="/llms.txt" />
   </head>
 
   <body>

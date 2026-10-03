@@ -2,7 +2,7 @@ import { Phone, Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { CONTACT_CONFIG } from "@/config/contact";
-import logoAlloGuincho from "@/assets/logo-allo-guincho-branca.png";
+import logoAlloGuincho from "@/assets/logo-allo-guincho-branca.svg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -120,7 +120,7 @@ const Header = () => {
 
                 <Button
                   asChild
-                  className="w-full bg-orange-600 hover:bg-orange-500 text-white font-black text-lg py-5 rounded-2xl shadow-xl"
+                  className="w-full bg-orange-700 hover:bg-orange-600 text-white font-black text-lg py-5 rounded-2xl shadow-xl"
                 >
                   <a
                     href={`tel:${CONTACT_CONFIG.phone.link}`}
