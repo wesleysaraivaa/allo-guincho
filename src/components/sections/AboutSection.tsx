@@ -91,6 +91,10 @@ export const AboutSection = () => {
                 src={imgHeroJetta}
                 alt="Equipe Allô Guincho 24h"
                 className="w-full h-auto object-cover"
+                loading="lazy"
+                decoding="async"
+                width={600}
+                height={400}
               />
             </div>
           </div>

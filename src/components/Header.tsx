@@ -32,6 +32,10 @@ const Header = () => {
                 src={logoAlloGuincho}
                 alt="Allô Guincho Logo"
                 className="h-12 sm:h-14 lg:h-16 w-auto object-contain group-hover:scale-105 transition-transform"
+                width={180}
+                height={64}
+                fetchPriority="high"
+                decoding="async"
               />
             </a>
 

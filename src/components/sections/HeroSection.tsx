@@ -143,6 +143,11 @@ export const HeroSection = () => {
                   src={currentRescue.src}
                   alt={currentRescue.title}
                   className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
+                  fetchPriority={activePhoto === 0 ? "high" : "auto"}
+                  loading={activePhoto === 0 ? "eager" : "lazy"}
+                  decoding="async"
+                  width={800}
+                  height={550}
                 />
 
                 <button
@@ -222,6 +227,10 @@ export const HeroSection = () => {
                         src={rescue.src}
                         alt={rescue.title}
                         className="w-full h-full object-cover"
+                        loading="lazy"
+                        decoding="async"
+                        width={120}
+                        height={64}
                       />
                     </button>
                   ))}

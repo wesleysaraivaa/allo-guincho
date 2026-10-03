@@ -259,6 +259,10 @@ export const FleetGallery = () => {
                   src={item.src}
                   alt={item.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  loading="lazy"
+                  decoding="async"
+                  width={400}
+                  height={320}
                 />
 
                 {/* Overlay */}

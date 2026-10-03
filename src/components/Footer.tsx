@@ -18,6 +18,10 @@ const Footer = () => {
               src={logoAlloGuincho}
               alt="Allô Guincho Logo"
               className="h-16 w-auto object-contain"
+              loading="lazy"
+              decoding="async"
+              width={180}
+              height={64}
             />
             <p className="text-lg text-slate-300 leading-relaxed">
               Atendimento de reboque especializado em toda a Grande São Paulo,
