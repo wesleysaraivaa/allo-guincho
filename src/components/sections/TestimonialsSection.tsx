@@ -110,7 +110,7 @@ export const TestimonialsSection = () => {
                     />
                   ))}
                 </div>
-                <span className="text-[10px] sm:text-xs font-bold text-slate-400 bg-slate-100 px-2.5 py-1 rounded-full whitespace-nowrap">
+                <span className="text-[10px] sm:text-xs font-bold text-slate-600 bg-slate-100 px-2.5 py-1 rounded-full whitespace-nowrap">
                   {t.date}
                 </span>
               </div>
@@ -130,7 +130,7 @@ export const TestimonialsSection = () => {
                     <span className="font-black text-slate-900 text-sm sm:text-base block truncate">
                       {t.name}
                     </span>
-                    <span className="text-xs sm:text-sm font-semibold text-orange-600 flex items-center space-x-1">
+                    <span className="text-xs sm:text-sm font-semibold text-orange-700 flex items-center space-x-1">
                       <svg
                         className="w-3 h-3 sm:w-3.5 sm:h-3.5"
                         viewBox="0 0 24 24"

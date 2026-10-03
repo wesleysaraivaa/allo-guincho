@@ -127,7 +127,7 @@ export const HeroSection = () => {
                     <span className="block font-extrabold text-sm sm:text-base">
                       Ligar 24h Agora
                     </span>
-                    <span className="text-[10px] sm:text-[11px] lg:text-[12px] text-amber-200 font-bold block">
+                    <span className="text-[10px] sm:text-[11px] lg:text-[12px] text-amber-100 font-bold block">
                       {CONTACT_CONFIG.phone.display}
                     </span>
                   </div>
@@ -177,27 +177,31 @@ export const HeroSection = () => {
                   <span className="text-[10px] sm:text-[11px] font-black text-orange-400 uppercase tracking-wider bg-orange-950/80 border border-orange-700/50 px-2 sm:px-3 py-0.5 sm:py-1 rounded-md inline-block mb-1 sm:mb-2">
                     Atendimento Real Allô Guincho
                   </span>
-                  <h3 className="text-sm sm:text-base lg:text-lg xl:text-xl font-extrabold text-white leading-tight">
+                  <h2 className="text-sm sm:text-base lg:text-lg xl:text-xl font-extrabold text-white leading-tight">
                     {currentRescue.title}
-                  </h3>
+                  </h2>
                   <p className="text-xs sm:text-sm text-slate-200 font-semibold">
                     Categoria: {currentRescue.type}
                   </p>
                 </div>
 
-                <div className="absolute bottom-20 sm:bottom-24 left-1/2 -translate-x-1/2 flex space-x-1.5 sm:space-x-2">
+                <div className="absolute bottom-20 sm:bottom-24 left-1/2 -translate-x-1/2 flex space-x-1 sm:space-x-1.5">
                   {REAL_RESCUES.map((_, idx) => (
                     <button
                       key={idx}
                       type="button"
                       onClick={() => setActivePhoto(idx)}
-                      className={`w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full transition-all ${
-                        activePhoto === idx
-                          ? "bg-orange-500 scale-125"
-                          : "bg-slate-600 hover:bg-slate-500"
-                      }`}
-                      aria-label={`Foto ${idx + 1}`}
-                    />
+                      className="p-2.5 -m-1 inline-flex items-center justify-center focus:outline-none"
+                      aria-label={`Ver foto ${idx + 1}`}
+                    >
+                      <span
+                        className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full transition-all block ${
+                          activePhoto === idx
+                            ? "bg-orange-500 scale-125"
+                            : "bg-slate-500 hover:bg-slate-400"
+                        }`}
+                      />
+                    </button>
                   ))}
                 </div>
               </div>

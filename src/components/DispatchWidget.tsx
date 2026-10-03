@@ -51,8 +51,8 @@ export const DispatchWidget = () => {
                 onClick={() => setVehicle(v.id)}
                 className={`flex flex-col items-center justify-center p-4 rounded-2xl border-2 text-base font-bold transition-all duration-300 ${
                   isSelected
-                    ? "bg-orange-600 text-white border-orange-500 shadow-xl shadow-orange-600/30 scale-105"
-                    : "bg-slate-800 text-slate-300 border-slate-700 hover:border-orange-500 hover:bg-slate-700 hover:scale-105 active:scale-95"
+                    ? "bg-orange-700 text-white border-orange-500 shadow-xl shadow-orange-700/30 scale-105"
+                    : "bg-slate-800 text-slate-100 border-slate-700 hover:border-orange-500 hover:bg-slate-700 hover:scale-105 active:scale-95"
                 }`}
               >
                 <Icon className="w-8 h-8 mb-2" />

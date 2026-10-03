@@ -66,22 +66,22 @@ export const AboutSection = () => {
                 situação.
               </p>
               <div className="flex flex-wrap gap-3">
-                <span className="bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-xl">
+                <span className="bg-orange-700 text-white font-bold text-sm px-4 py-2 rounded-xl">
                   Carros
                 </span>
-                <span className="bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-xl">
+                <span className="bg-orange-700 text-white font-bold text-sm px-4 py-2 rounded-xl">
                   SUVs
                 </span>
-                <span className="bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-xl">
+                <span className="bg-orange-700 text-white font-bold text-sm px-4 py-2 rounded-xl">
                   Vans
                 </span>
-                <span className="bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-xl">
+                <span className="bg-orange-700 text-white font-bold text-sm px-4 py-2 rounded-xl">
                   Caminhões
                 </span>
-                <span className="bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-xl">
+                <span className="bg-orange-700 text-white font-bold text-sm px-4 py-2 rounded-xl">
                   Máquinas
                 </span>
-                <span className="bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-xl">
+                <span className="bg-orange-700 text-white font-bold text-sm px-4 py-2 rounded-xl">
                   4x4
                 </span>
               </div>

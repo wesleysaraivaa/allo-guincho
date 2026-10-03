@@ -109,7 +109,7 @@ export const ServicesSection = () => {
 
                   {/* Badge */}
                   <div className="absolute top-4 left-4">
-                    <span className="bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-xl shadow-lg flex items-center space-x-2">
+                    <span className="bg-orange-700 text-white font-bold text-sm px-4 py-2 rounded-xl shadow-lg flex items-center space-x-2">
                       <Icon className="w-4 h-4 text-white" />
                       <span>{service.badge}</span>
                     </span>
@@ -121,7 +121,7 @@ export const ServicesSection = () => {
                   <h3 className="text-2xl font-black text-slate-900 mb-2">
                     {service.title}
                   </h3>
-                  <p className="text-sm text-orange-600 font-semibold mb-3">
+                  <p className="text-sm text-orange-700 font-semibold mb-3">
                     {service.subtitle}
                   </p>
                   <p className="text-base text-slate-600 leading-relaxed mb-6 flex-1">

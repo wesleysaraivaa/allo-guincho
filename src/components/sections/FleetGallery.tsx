@@ -270,7 +270,7 @@ export const FleetGallery = () => {
 
                 {/* Badge */}
                 <div className="absolute top-4 left-4">
-                  <span className="bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-xl shadow-lg">
+                  <span className="bg-orange-700 text-white font-bold text-sm px-4 py-2 rounded-xl shadow-lg">
                     {item.badge}
                   </span>
                 </div>
